@@ -8,16 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		6E8F5ABB262BB5C500559433 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979E47262BA30D006C5620 /* App.swift */; };
-		6E8F5AC2262BB5DA00559433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979E49262BA30D006C5620 /* ContentView.swift */; };
 		6E8F5ACE262BB5F200559433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E979E4B262BA30E006C5620 /* Assets.xcassets */; };
 		6E8F5AD1262BB5FB00559433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E979E4B262BA30E006C5620 /* Assets.xcassets */; };
+		6E8F5ADB262BB6E100559433 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5ADA262BB6E100559433 /* AppInfo.swift */; };
+		6E8F5ADC262BB6E100559433 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5ADA262BB6E100559433 /* AppInfo.swift */; };
+		6E8F5AE5262BB7E500559433 /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE4262BB7E500559433 /* DevicesListView.swift */; };
+		6E8F5AE6262BB7E500559433 /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE4262BB7E500559433 /* DevicesListView.swift */; };
+		6E8F5AEA262BB89000559433 /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE9262BB89000559433 /* DeviceRow.swift */; };
+		6E8F5AEB262BB89000559433 /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE9262BB89000559433 /* DeviceRow.swift */; };
 		6E979E48262BA30D006C5620 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979E47262BA30D006C5620 /* App.swift */; };
-		6E979E4A262BA30D006C5620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979E49262BA30D006C5620 /* ContentView.swift */; };
 		6E979E4F262BA30E006C5620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E979E4E262BA30E006C5620 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E8F5AA1262BB4A600559433 /* MPPSolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPPSolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8F5ADA262BB6E100559433 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		6E8F5AE4262BB7E500559433 /* DevicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListView.swift; sourceTree = "<group>"; };
+		6E8F5AE9262BB89000559433 /* DeviceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRow.swift; sourceTree = "<group>"; };
 		6E979E44262BA30D006C5620 /* MPPSolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPPSolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E979E47262BA30D006C5620 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		6E979E49262BA30D006C5620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E8F5ADF262BB79300559433 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F5AE4262BB7E500559433 /* DevicesListView.swift */,
+				6E8F5AE9262BB89000559433 /* DeviceRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6E979E3B262BA30D006C5620 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +80,9 @@
 		6E979E46262BA30D006C5620 /* MPPSolar */ = {
 			isa = PBXGroup;
 			children = (
+				6E8F5ADF262BB79300559433 /* Views */,
 				6E979E47262BA30D006C5620 /* App.swift */,
+				6E8F5ADA262BB6E100559433 /* AppInfo.swift */,
 				6E979E49262BA30D006C5620 /* ContentView.swift */,
 				6E979E4B262BA30E006C5620 /* Assets.xcassets */,
 				6E979E50262BA30E006C5620 /* Info.plist */,
@@ -182,8 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8F5AC2262BB5DA00559433 /* ContentView.swift in Sources */,
 				6E8F5ABB262BB5C500559433 /* App.swift in Sources */,
+				6E8F5AE6262BB7E500559433 /* DevicesListView.swift in Sources */,
+				6E8F5AEB262BB89000559433 /* DeviceRow.swift in Sources */,
+				6E8F5ADC262BB6E100559433 /* AppInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E979E4A262BA30D006C5620 /* ContentView.swift in Sources */,
 				6E979E48262BA30D006C5620 /* App.swift in Sources */,
+				6E8F5AE5262BB7E500559433 /* DevicesListView.swift in Sources */,
+				6E8F5AEA262BB89000559433 /* DeviceRow.swift in Sources */,
+				6E8F5ADB262BB6E100559433 /* AppInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
