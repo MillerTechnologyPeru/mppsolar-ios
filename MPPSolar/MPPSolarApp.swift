@@ -14,6 +14,16 @@ struct MPPSolarApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    let _ = Self.appLaunch
+                }
         }
     }
+}
+
+private extension MPPSolarApp {
+    
+    static let appLaunch: () = {
+        
+    }()
 }
