@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E979E43262BA30D006C5620"
-               BuildableName = "MPPSolar iOS.app"
+               BuildableName = "MPPSolar.app"
                BlueprintName = "MPPSolar iOS"
                ReferencedContainer = "container:MPPSolar.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E979E43262BA30D006C5620"
-            BuildableName = "MPPSolar iOS.app"
+            BuildableName = "MPPSolar.app"
             BlueprintName = "MPPSolar iOS"
             ReferencedContainer = "container:MPPSolar.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E979E43262BA30D006C5620"
-            BuildableName = "MPPSolar iOS.app"
+            BuildableName = "MPPSolar.app"
             BlueprintName = "MPPSolar iOS"
             ReferencedContainer = "container:MPPSolar.xcodeproj">
          </BuildableReference>

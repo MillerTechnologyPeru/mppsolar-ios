@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,15 +16,68 @@
 		6E8F5AE6262BB7E500559433 /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE4262BB7E500559433 /* DevicesListView.swift */; };
 		6E8F5AEA262BB89000559433 /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE9262BB89000559433 /* DeviceRow.swift */; };
 		6E8F5AEB262BB89000559433 /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F5AE9262BB89000559433 /* DeviceRow.swift */; };
+		6E8F5AFA262BBAF400559433 /* MPPSolarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F5AF3262BBAF400559433 /* MPPSolarKit.framework */; };
+		6E8F5AFB262BBAF400559433 /* MPPSolarKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F5AF3262BBAF400559433 /* MPPSolarKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E8F5B0B262BBB0B00559433 /* MPPSolarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8F5B09262BBB0B00559433 /* MPPSolarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8F5B0E262BBB0B00559433 /* MPPSolarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F5B07262BBB0B00559433 /* MPPSolarKit.framework */; };
+		6E8F5B0F262BBB0B00559433 /* MPPSolarKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F5B07262BBB0B00559433 /* MPPSolarKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E8F5B1E262BBB8500559433 /* MPPSolar in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8F5B1D262BBB8500559433 /* MPPSolar */; };
+		6E8F5B20262BBB8A00559433 /* MPPSolar in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8F5B1F262BBB8A00559433 /* MPPSolar */; };
 		6E979E48262BA30D006C5620 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979E47262BA30D006C5620 /* App.swift */; };
 		6E979E4F262BA30E006C5620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E979E4E262BA30E006C5620 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8F5AF8262BBAF400559433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E979E3C262BA30D006C5620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8F5AF2262BBAF400559433;
+			remoteInfo = MPPSolarKit;
+		};
+		6E8F5B0C262BBB0B00559433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E979E3C262BA30D006C5620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8F5B06262BBB0B00559433;
+			remoteInfo = MPPSolarKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E8F5AFF262BBAF400559433 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E8F5AFB262BBAF400559433 /* MPPSolarKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5B13262BBB0B00559433 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E8F5B0F262BBB0B00559433 /* MPPSolarKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E8F5AA1262BB4A600559433 /* MPPSolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPPSolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8F5ADA262BB6E100559433 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		6E8F5AE4262BB7E500559433 /* DevicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListView.swift; sourceTree = "<group>"; };
 		6E8F5AE9262BB89000559433 /* DeviceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRow.swift; sourceTree = "<group>"; };
+		6E8F5AF3262BBAF400559433 /* MPPSolarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPPSolarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8F5B07262BBB0B00559433 /* MPPSolarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPPSolarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8F5B09262BBB0B00559433 /* MPPSolarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPPSolarKit.h; sourceTree = "<group>"; };
+		6E8F5B0A262BBB0B00559433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E979E44262BA30D006C5620 /* MPPSolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPPSolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E979E47262BA30D006C5620 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		6E979E49262BA30D006C5620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8F5B0E262BBB0B00559433 /* MPPSolarKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5AF0262BBAF400559433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F5B1E262BBB8500559433 /* MPPSolar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5B04262BBB0B00559433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F5B20262BBB8A00559433 /* MPPSolar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8F5AFA262BBAF400559433 /* MPPSolarKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +131,29 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		6E8F5B08262BBB0B00559433 /* MPPSolarKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F5B09262BBB0B00559433 /* MPPSolarKit.h */,
+				6E8F5B0A262BBB0B00559433 /* Info.plist */,
+			);
+			path = MPPSolarKit;
+			sourceTree = "<group>";
+		};
+		6E8F5B1C262BBB8500559433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E979E3B262BA30D006C5620 = {
 			isa = PBXGroup;
 			children = (
 				6E979E46262BA30D006C5620 /* MPPSolar */,
+				6E8F5B08262BBB0B00559433 /* MPPSolarKit */,
 				6E979E45262BA30D006C5620 /* Products */,
+				6E8F5B1C262BBB8500559433 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +162,8 @@
 			children = (
 				6E979E44262BA30D006C5620 /* MPPSolar.app */,
 				6E8F5AA1262BB4A600559433 /* MPPSolar.app */,
+				6E8F5AF3262BBAF400559433 /* MPPSolarKit.framework */,
+				6E8F5B07262BBB0B00559433 /* MPPSolarKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +192,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6E8F5AEE262BBAF400559433 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5B02262BBB0B00559433 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F5B0B262BBB0B00559433 /* MPPSolarKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6E8F5AA0262BB4A600559433 /* MPPSolar macOS */ = {
 			isa = PBXNativeTarget;
@@ -109,15 +218,59 @@
 				6E8F5A9D262BB4A600559433 /* Sources */,
 				6E8F5A9E262BB4A600559433 /* Frameworks */,
 				6E8F5A9F262BB4A600559433 /* Resources */,
+				6E8F5B13262BBB0B00559433 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E8F5B0D262BBB0B00559433 /* PBXTargetDependency */,
 			);
 			name = "MPPSolar macOS";
 			productName = MPPSolar;
 			productReference = 6E8F5AA1262BB4A600559433 /* MPPSolar.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6E8F5AF2262BBAF400559433 /* MPPSolarKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8F5AFC262BBAF400559433 /* Build configuration list for PBXNativeTarget "MPPSolarKit iOS" */;
+			buildPhases = (
+				6E8F5AEE262BBAF400559433 /* Headers */,
+				6E8F5AEF262BBAF400559433 /* Sources */,
+				6E8F5AF0262BBAF400559433 /* Frameworks */,
+				6E8F5AF1262BBAF400559433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPPSolarKit iOS";
+			packageProductDependencies = (
+				6E8F5B1D262BBB8500559433 /* MPPSolar */,
+			);
+			productName = MPPSolarKit;
+			productReference = 6E8F5AF3262BBAF400559433 /* MPPSolarKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E8F5B06262BBB0B00559433 /* MPPSolarKit macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8F5B10262BBB0B00559433 /* Build configuration list for PBXNativeTarget "MPPSolarKit macOS" */;
+			buildPhases = (
+				6E8F5B02262BBB0B00559433 /* Headers */,
+				6E8F5B03262BBB0B00559433 /* Sources */,
+				6E8F5B04262BBB0B00559433 /* Frameworks */,
+				6E8F5B05262BBB0B00559433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPPSolarKit macOS";
+			packageProductDependencies = (
+				6E8F5B1F262BBB8A00559433 /* MPPSolar */,
+			);
+			productName = MPPSolarKit;
+			productReference = 6E8F5B07262BBB0B00559433 /* MPPSolarKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		6E979E43262BA30D006C5620 /* MPPSolar iOS */ = {
 			isa = PBXNativeTarget;
@@ -126,10 +279,12 @@
 				6E979E40262BA30D006C5620 /* Sources */,
 				6E979E41262BA30D006C5620 /* Frameworks */,
 				6E979E42262BA30D006C5620 /* Resources */,
+				6E8F5AFF262BBAF400559433 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E8F5AF9262BBAF400559433 /* PBXTargetDependency */,
 			);
 			name = "MPPSolar iOS";
 			productName = MPPSolar;
@@ -148,13 +303,19 @@
 					6E8F5AA0262BB4A600559433 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					6E8F5AF2262BBAF400559433 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6E8F5B06262BBB0B00559433 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					6E979E43262BA30D006C5620 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
 			buildConfigurationList = 6E979E3F262BA30D006C5620 /* Build configuration list for PBXProject "MPPSolar" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -171,6 +332,8 @@
 			targets = (
 				6E979E43262BA30D006C5620 /* MPPSolar iOS */,
 				6E8F5AA0262BB4A600559433 /* MPPSolar macOS */,
+				6E8F5AF2262BBAF400559433 /* MPPSolarKit iOS */,
+				6E8F5B06262BBB0B00559433 /* MPPSolarKit macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +344,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E8F5AD1262BB5FB00559433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5AF1262BBAF400559433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5B05262BBB0B00559433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +384,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E8F5AEF262BBAF400559433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F5B03262BBB0B00559433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E979E40262BA30D006C5620 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +410,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8F5AF9262BBAF400559433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8F5AF2262BBAF400559433 /* MPPSolarKit iOS */;
+			targetProxy = 6E8F5AF8262BBAF400559433 /* PBXContainerItemProxy */;
+		};
+		6E8F5B0D262BBB0B00559433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8F5B06262BBB0B00559433 /* MPPSolarKit macOS */;
+			targetProxy = 6E8F5B0C262BBB0B00559433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6E8F5AAF262BB4A700559433 /* Debug */ = {
@@ -270,6 +474,122 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6E8F5AFD262BBAF400559433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MPPSolarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.MPPSolarKit;
+				PRODUCT_NAME = MPPSolarKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E8F5AFE262BBAF400559433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MPPSolarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.MPPSolarKit;
+				PRODUCT_NAME = MPPSolarKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E8F5B11262BBB0B00559433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MPPSolarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.MPPSolarKit;
+				PRODUCT_NAME = MPPSolarKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E8F5B12262BBB0B00559433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MPPSolarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.MPPSolarKit;
+				PRODUCT_NAME = MPPSolarKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -399,7 +719,7 @@
 				DEVELOPMENT_TEAM = 4W79SG34MW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MPPSolar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,7 +742,7 @@
 				DEVELOPMENT_TEAM = 4W79SG34MW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MPPSolar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +763,24 @@
 			buildConfigurations = (
 				6E8F5AAF262BB4A700559433 /* Debug */,
 				6E8F5AB0262BB4A700559433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8F5AFC262BBAF400559433 /* Build configuration list for PBXNativeTarget "MPPSolarKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8F5AFD262BBAF400559433 /* Debug */,
+				6E8F5AFE262BBAF400559433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8F5B10262BBB0B00559433 /* Build configuration list for PBXNativeTarget "MPPSolarKit macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8F5B11262BBB0B00559433 /* Debug */,
+				6E8F5B12262BBB0B00559433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -477,6 +815,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E8F5B1D262BBB8500559433 /* MPPSolar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E8F5A9A262BB43200559433 /* XCRemoteSwiftPackageReference "MPPSolar" */;
+			productName = MPPSolar;
+		};
+		6E8F5B1F262BBB8A00559433 /* MPPSolar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E8F5A9A262BB43200559433 /* XCRemoteSwiftPackageReference "MPPSolar" */;
+			productName = MPPSolar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E979E3C262BA30D006C5620 /* Project object */;
 }
